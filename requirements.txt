@@ -1,0 +1,7 @@
+rdkit
+streamlit
+py3Dmol
+pandas
+numpy
+matplotlib
+plotly

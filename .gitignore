@@ -1,0 +1,185 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Streamlit
+.streamlit/secrets.toml
+*.pkl
+*.pickle
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+data/
+datasets/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+!.env.example
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+*.der
+*.pfx
+*.p12
+nginx/ssl/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+backups/
+
+# Cache
+.cache/
+*.cache
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Testing
+.coverage
+.pytest_cache/
+test-results/
+tests/reports/
+
+# Documentation
+docs/_build/
+site/
+
+# Package files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+*.swn
+.*.swp
+.*.swo
+.*.swn
+
+# Node (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production data volumes
+app-data/
+pip-cache/
+nginx-logs/
+
+# Temporary files
+tmp/
+temp/
+*.pid
+
+# Security - Never commit these
+secrets/
+private/
+credentials/
+*.secret
