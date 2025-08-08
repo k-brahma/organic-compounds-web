@@ -79,7 +79,7 @@ streamlit run app.py
 | グルコース | `C(C1C(C(C(C(O1)O)O)O)O)O` |
 
 ### アミノ酸（軽くて分かりやすい）
-```markdown
+
 | 分子名 | SMILES | 備考 |
 |--------|--------|------|
 | グリシン | `NCC(=O)O` | 最小のアミノ酸 |
@@ -87,7 +87,7 @@ streamlit run app.py
 | システイン | `NC(CS)C(=O)O` | 硫黄含有、ジスルフィド結合形成 |
 | フェニルアラニン | `NC(CC1=CC=CC=C1)C(=O)O` | 芳香族アミノ酸 |
 | トリプトファン | `NC(CC1=CNC2=CC=CC=C21)C(=O)O` | インドール環 |
-```
+
 
 ### 小さなペプチド
 
@@ -99,7 +99,7 @@ streamlit run app.py
 | グルタチオン | `NC(CCC(=O)NC(CS)C(=O)NCC(=O)O)C(=O)O` | 抗酸化物質 |
 
 ### 面白い生理活性化合物
-```markdown
+
 | 分子名 | SMILES | 備考 |
 |--------|--------|------|
 | セロトニン | `NCCc1c[nH]c2ccc(O)cc12` | 幸せホルモン |
@@ -107,17 +107,17 @@ streamlit run app.py
 | アドレナリン | `CNCC(O)c1ccc(O)c(O)c1` | 興奮ホルモン |
 | テストステロン | `CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C` | 男性ホルモン |
 | カプサイシン | `COc1cc(CNC(=O)CCCCCCCC=C)ccc1O` | 唐辛子の辛味成分 |
-```
+
 
 ### DNA塩基
-```markdown
+
 | 分子名 | SMILES | 備考 |
 |--------|--------|------|
 | アデニン | `Nc1ncnc2[nH]cnc12` | DNA塩基 |
 | グアニン | `Nc1nc2[nH]cnc2c(=O)[nH]1` | DNA塩基 |
 | チミン | `Cc1c[nH]c(=O)[nH]c1=O` | DNA塩基 |
 | シトシン | `Nc1cc[nH]c(=O)n1` | DNA塩基 |
-```
+
 
 ## 技術スタック
 
