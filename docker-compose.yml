@@ -21,10 +21,13 @@ services:
       - pip-cache:/root/.cache/pip
     networks:
       - organic-compounds-net
+      - proxy-network
 
 networks:
   organic-compounds-net:
     driver: bridge
+  proxy-network:
+    external: true
 
 volumes:
   pip-cache:
