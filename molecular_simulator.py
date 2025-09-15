@@ -204,7 +204,12 @@ PRESET_MOLECULES = {
     '水 (Water)': 'O',
     'エチレン (Ethylene)': 'C=C',
     'プロパン (Propane)': 'CCC',
-    'シクロヘキサン (Cyclohexane)': 'C1CCCCC1'
+    'シクロヘキサン (Cyclohexane)': 'C1CCCCC1',
+    'ペニシリン (Penicillin G)': 'CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C',
+    'ビタミンC (Vitamin C)': 'C(C(C1C(=O)C(=C(O1)O)O)O)O',
+    'ドーパミン (Dopamine)': 'C1=CC(=C(C=C1CCN)O)O',
+    'カプサイシン (Capsaicin)': 'CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC',
+    'TNT (Trinitrotoluene)': 'CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]'
 }
 
 
